@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Text-To-Speech Website</h1>
+    <textarea id="text-input" ></textarea>
+    <label for="voice-select">voice:</label>
+    <select name="" id="voice-select">
+        <option value="">voice no. 1</option>
+        <option value="">voice no. 2</option>
+        <option value="">voice no. 3</option>
+    </select>
+<br>
+
+    <div class="rangecontainer">
+        <label for="">pitch</label>
+        <input type="range" min="0" max="2" step="0.1" value="1" id="pitch-range">
+
+    </div>
+
+    <div class="rangecontainer">
+        <label for="">Rate:</label>
+        <input type="range" min="0" max="2" step="0.1" value="1" id="rate-range">
+    </div>
+
+    <button id="speak-button">speak</button>
+</body>
+</html>
